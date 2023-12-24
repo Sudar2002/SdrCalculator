@@ -1,0 +1,31 @@
+html,section,#abc{
+    background-color: magenta;
+    
+  }
+
+  #abc{
+    border: none;
+  }
+  
+
+  #fbody{
+    background-color:aqua;
+    border: 2px ridge aqua;
+    border-radius: 20px;
+  }
+  #login{
+    color:deeppink;
+  }
+
+  label{
+    font-size:large;
+   
+  }
+  #userName,#password{
+    background-color:violet;
+    border-radius: 10px;
+  }
+ #loginphoto{
+  border: 2px ridge blueviolet;
+  border-radius: 50%;
+ }
