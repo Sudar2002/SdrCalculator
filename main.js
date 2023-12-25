@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const path =require('path')
 const logInRouter=require('./routes/log_in');
-const port=process.env.PORT || 3000;
+//const port=process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname,'public')))
 app.use(bodyParser.urlencoded());
@@ -14,7 +14,7 @@ app.use((req,res)=>{
 
 }) 
 
-app.listen(port, () => {
+/* app.listen(port, () => {
     console.log(`Server Successfully Connect http://localhost:${port}`);
 });
-
+ */
