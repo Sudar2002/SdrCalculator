@@ -1,9 +1,9 @@
-const express = require("express");
+/* const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const path =require('path')
 const logInRouter=require('./routes/log_in');
-//const port=process.env.PORT || 3000;
+const port=process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname,'public')))
 app.use(bodyParser.urlencoded());
@@ -13,9 +13,16 @@ app.use((req,res)=>{
     res.status(404).send("<h1>404 Page not found</h1>")
 
 }) 
-app.listen(80);
 
-/* app.listen(port, () => {
+
+ app.listen(port, () => {
     console.log(`Server Successfully Connect http://localhost:${port}`);
 });
+ 
  */
+
+const http=require('http');
+http.createServer(function (req,res){
+    res.write('I am Sutharsan')
+    res.end();
+}).listen(80);
