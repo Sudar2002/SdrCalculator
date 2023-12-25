@@ -13,7 +13,7 @@ app.use((req,res)=>{
     res.status(404).send("<h1>404 Page not found</h1>")
 
 }) 
-app.listen(8080);
+app.listen(80);
 
 /* app.listen(port, () => {
     console.log(`Server Successfully Connect http://localhost:${port}`);
