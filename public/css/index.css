@@ -1,5 +1,5 @@
 html,section,#abc{
-    background-color: magenta;
+    background-color:mediumvioletred;
     
   }
 
@@ -8,8 +8,8 @@ html,section,#abc{
   }
   
 
-  #fbody{
-    background-color:aqua;
+  #fbody,#userName,#password{
+    background-color:rgba(0, 0, 0, 0.288);
     border: 2px ridge aqua;
     border-radius: 20px;
   }
@@ -18,12 +18,15 @@ html,section,#abc{
   }
 
   label{
-    font-size:large;
+    font-size:22px;
+    
    
   }
   #userName,#password{
-    background-color:violet;
+    background-color:rgba(246, 5, 246, 0.393);
     border-radius: 10px;
+    font-size:22px;
+    
   }
  #loginphoto{
   border: 2px ridge blueviolet;
