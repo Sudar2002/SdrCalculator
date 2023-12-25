@@ -1,4 +1,4 @@
-/* const express = require("express");
+const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const path =require('path')
@@ -19,10 +19,4 @@ app.use((req,res)=>{
     console.log(`Server Successfully Connect http://localhost:${port}`);
 });
  
- */
 
-const http=require('http');
-http.createServer(function (req,res){
-    res.write('I am Sutharsan')
-    res.end();
-}).listen(8080);
